@@ -1,0 +1,15 @@
+arr = [0,1]
+def fibbonachi(x):
+    if x == 0:
+        return arr[:1]
+    if x == 0:
+        return arr
+    elif x < 0:
+        return "Doesn't Exist"
+    else:
+        for i in range(0,x-1):
+            d =arr[i] + arr[i+1]
+            arr.append(d)
+        return arr
+o = int(input("Enter the value: "))
+print(fibbonachi(o))
