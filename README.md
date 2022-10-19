@@ -1,5 +1,5 @@
-# Hacktober2022
- #Hacktoberfest
+
+
 # 1 - Import library
 
 import pygame
