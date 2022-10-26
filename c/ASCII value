@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {  
+    char c; //variable declaration
+    printf("Enter a character: ");
+    scanf("%c", &c); //taking input 
+    
+    // %d displays the integer value of a character
+    // %c displays the actual character typed by you
+    
+    printf("ASCII value of %c = %d", c, c);
+    
+    return 0;
+}
