@@ -1,3 +1,5 @@
+//C++ code
+//https://codeforces.com/contest/1225/problem/C
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
